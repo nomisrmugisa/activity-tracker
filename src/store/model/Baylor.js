@@ -287,7 +287,7 @@ export const ProgramStage = types.model('ProgramStage', {
         };
         const responsibleColumn = {
             key: 'UugBQHvPTZ3',
-            title: 'Responsible person',
+            title: 'Baylor Staff Responsible',
             dataIndex: 'UugBQHvPTZ3'
         };
         const issueStatusColumn = {

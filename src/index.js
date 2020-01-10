@@ -13,7 +13,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { init } from 'd2';
 import Loading from './components/Loading'
+import { createRequire } from 'module';
 
+const require = createRequire(import.meta.url);
 
 const config = {};
 if (process.env.NODE_ENV === 'development') {

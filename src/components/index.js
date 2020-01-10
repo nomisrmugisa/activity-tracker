@@ -8,6 +8,10 @@ import { Activity } from "./Activity";
 import { ActivityDetails } from './ActivityDetails';
 
 import {
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
     PlannedActivityForm,
     IssueForm
 } from './forms'
